@@ -1,0 +1,350 @@
+<!--This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0-->
+<eagle version="7.1.0">
+<drawing>
+<settings>
+<setting alwaysvectorfont="no"/>
+<setting verticaltext="up"/>
+</settings>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<layers>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="97" name="Info" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="98" name="Guide" color="6" fill="1" visible="yes" active="yes"/>
+</layers>
+<library>
+<packages>
+<package name="DEV-16771">
+<wire x1="-30.48" y1="8.89" x2="30.48" y2="8.89" width="0.127" layer="21"/>
+<wire x1="30.48" y1="8.89" x2="30.48" y2="-8.89" width="0.127" layer="21"/>
+<wire x1="30.48" y1="-8.89" x2="-30.48" y2="-8.89" width="0.127" layer="21"/>
+<wire x1="-7.3025" y1="6" x2="-7.3025" y2="-6" width="0.127" layer="21"/>
+<wire x1="-7.3025" y1="-6" x2="4.6975" y2="-6" width="0.127" layer="21"/>
+<wire x1="4.6975" y1="-6" x2="4.6975" y2="6" width="0.127" layer="21"/>
+<wire x1="-7.3025" y1="6" x2="4.6975" y2="6" width="0.127" layer="21"/>
+<wire x1="-26.68" y1="-3.75" x2="-26.68" y2="3.75" width="0.127" layer="21"/>
+<wire x1="-26.68" y1="-3.75" x2="-30.48" y2="-3.75" width="0.127" layer="21"/>
+<wire x1="-30.48" y1="-3.75" x2="-31.73" y2="-3.75" width="0.127" layer="21"/>
+<wire x1="-26.68" y1="3.75" x2="-30.48" y2="3.75" width="0.127" layer="21"/>
+<wire x1="-30.48" y1="3.75" x2="-31.73" y2="3.75" width="0.127" layer="21"/>
+<wire x1="-31.73" y1="-3.75" x2="-31.73" y2="3.75" width="0.127" layer="21"/>
+<wire x1="-30.48" y1="-8.89" x2="-30.48" y2="-3.75" width="0.127" layer="21"/>
+<wire x1="-30.48" y1="8.89" x2="-30.48" y2="3.75" width="0.127" layer="21"/>
+<wire x1="18.0975" y1="6" x2="18.0975" y2="-6" width="0.127" layer="21"/>
+<wire x1="18.0975" y1="-6" x2="30.0975" y2="-6" width="0.127" layer="21"/>
+<wire x1="18.0975" y1="6" x2="30.0975" y2="6" width="0.127" layer="21"/>
+<wire x1="28.575" y1="4.315" x2="28.575" y2="-4.315" width="0.127" layer="21"/>
+<wire x1="28.575" y1="4.315" x2="30.0975" y2="5.585" width="0.127" layer="21" curve="-90"/>
+<wire x1="28.575" y1="-4.315" x2="30.0975" y2="-5.585" width="0.127" layer="21" curve="90"/>
+<wire x1="30.0975" y1="-6" x2="30.0975" y2="-5.585" width="0.127" layer="21"/>
+<wire x1="30.0975" y1="6" x2="30.0975" y2="5.585" width="0.127" layer="21"/>
+<wire x1="-17.24" y1="0.04" x2="-13.24" y2="0.04" width="0.127" layer="21"/>
+<wire x1="-17.24" y1="6.04" x2="-17.24" y2="0.04" width="0.127" layer="21"/>
+<wire x1="-13.24" y1="0.04" x2="-13.24" y2="6.04" width="0.127" layer="21"/>
+<wire x1="-17.24" y1="6.04" x2="-13.24" y2="6.04" width="0.127" layer="21"/>
+<wire x1="-24.13" y1="-3.43" x2="-21.59" y2="-3.43" width="0.127" layer="21"/>
+<wire x1="-21.59" y1="-3.43" x2="-11.43" y2="-3.43" width="0.127" layer="21"/>
+<wire x1="-24.13" y1="-5.97" x2="-21.59" y2="-5.97" width="0.127" layer="21"/>
+<wire x1="-21.59" y1="-5.97" x2="-11.43" y2="-5.97" width="0.127" layer="21"/>
+<wire x1="-24.13" y1="-3.43" x2="-24.13" y2="-5.97" width="0.127" layer="21"/>
+<wire x1="-11.43" y1="-5.97" x2="-11.43" y2="-3.43" width="0.127" layer="21"/>
+<wire x1="-21.59" y1="-3.43" x2="-21.59" y2="-5.97" width="0.127" layer="21"/>
+<text x="0" y="-11" size="1.778" layer="51" align="center">Teensy 4.1</text>
+<text x="-30.48" y="10.16" size="1.778" layer="25">&gt;NAME</text>
+<text x="30.48" y="10.16" size="1.778" layer="27" align="bottom-right">&gt;VALUE</text>
+<rectangle x1="-31.83" y1="-8.99" x2="30.58" y2="8.99" layer="39"/>
+<pad name="GND" x="-29.21" y="-7.62" drill="0.8" rot="R90"/>
+<pad name="D0" x="-26.67" y="-7.62" drill="0.8" rot="R90"/>
+<pad name="D1" x="-24.13" y="-7.62" drill="0.8" rot="R90"/>
+<pad name="D2" x="-21.59" y="-7.62" drill="0.8" rot="R90"/>
+<pad name="D3" x="-19.05" y="-7.62" drill="0.8" rot="R90"/>
+<pad name="D4" x="-16.51" y="-7.62" drill="0.8" rot="R90"/>
+<pad name="D5" x="-13.97" y="-7.62" drill="0.8" rot="R90"/>
+<pad name="D6" x="-11.43" y="-7.62" drill="0.8" rot="R90"/>
+<pad name="D7" x="-8.89" y="-7.62" drill="0.8" rot="R90"/>
+<pad name="D8" x="-6.35" y="-7.62" drill="0.8" rot="R90"/>
+<pad name="D9" x="-3.81" y="-7.62" drill="0.8" rot="R90"/>
+<pad name="D10" x="-1.27" y="-7.62" drill="0.8" rot="R90"/>
+<pad name="D11" x="1.27" y="-7.62" drill="0.8" rot="R90"/>
+<pad name="D12" x="3.81" y="-7.62" drill="0.8" rot="R90"/>
+<pad name="VBAT" x="16.51" y="-5.08" drill="0.8" rot="R90"/>
+<pad name="3.3V@2" x="16.51" y="-2.54" drill="0.8" rot="R90"/>
+<pad name="GND@2" x="16.51" y="0" drill="0.8" rot="R90"/>
+<pad name="ON/OFF" x="16.51" y="5.08" drill="0.8" rot="R90"/>
+<pad name="D38/A14" x="16.51" y="7.62" drill="0.8" rot="R90"/>
+<pad name="D14/A0" x="1.27" y="7.62" drill="0.8" rot="R90"/>
+<pad name="D15/A1" x="-1.27" y="7.62" drill="0.8" rot="R90"/>
+<pad name="D16/A2" x="-3.81" y="7.62" drill="0.8" rot="R90"/>
+<pad name="D17/A3" x="-6.35" y="7.62" drill="0.8" rot="R90"/>
+<pad name="D18/A4" x="-8.89" y="7.62" drill="0.8" rot="R90"/>
+<pad name="D19/A5" x="-11.43" y="7.62" drill="0.8" rot="R90"/>
+<pad name="D20/A6" x="-13.97" y="7.62" drill="0.8" rot="R90"/>
+<pad name="D21/A7" x="-16.51" y="7.62" drill="0.8" rot="R90"/>
+<pad name="D22/A8" x="-19.05" y="7.62" drill="0.8" rot="R90"/>
+<pad name="D23/A9" x="-21.59" y="7.62" drill="0.8" rot="R90"/>
+<pad name="3.3V@1" x="-24.13" y="7.62" drill="0.8" rot="R90"/>
+<pad name="AGND" x="-26.67" y="7.62" drill="0.8" rot="R90"/>
+<pad name="VIN" x="-29.21" y="7.62" drill="0.8" rot="R90"/>
+<pad name="VUSB" x="-26.67" y="5.08" drill="0.8" rot="R90"/>
+<pad name="PROGRAM" x="16.51" y="2.54" drill="0.8" rot="R90"/>
+<pad name="3.3V" x="6.35" y="-7.62" drill="0.8" rot="R90"/>
+<pad name="D24/A10" x="8.89" y="-7.62" drill="0.8" rot="R90"/>
+<pad name="D25/A11" x="11.43" y="-7.62" drill="0.8" rot="R90"/>
+<pad name="D26/A12" x="13.97" y="-7.62" drill="0.8" rot="R90"/>
+<pad name="D27/A13" x="16.51" y="-7.62" drill="0.8" rot="R90"/>
+<pad name="D28" x="19.05" y="-7.62" drill="0.8" rot="R90"/>
+<pad name="D29" x="21.59" y="-7.62" drill="0.8" rot="R90"/>
+<pad name="D30" x="24.13" y="-7.62" drill="0.8" rot="R90"/>
+<pad name="D31" x="26.67" y="-7.62" drill="0.8" rot="R90"/>
+<pad name="D32" x="29.21" y="-7.62" drill="0.8" rot="R90"/>
+<pad name="D33" x="29.21" y="7.62" drill="0.8" rot="R90"/>
+<pad name="D34" x="26.67" y="7.62" drill="0.8" rot="R90"/>
+<pad name="D35" x="24.13" y="7.62" drill="0.8" rot="R90"/>
+<pad name="D36" x="21.59" y="7.62" drill="0.8" rot="R90"/>
+<pad name="D37" x="19.05" y="7.62" drill="0.8" rot="R90"/>
+<pad name="D39/A15" x="13.97" y="7.62" drill="0.8" rot="R90"/>
+<pad name="D40/A16" x="11.43" y="7.62" drill="0.8" rot="R90"/>
+<pad name="D41/A17" x="8.89" y="7.62" drill="0.8" rot="R90"/>
+<pad name="GND@1" x="6.35" y="7.62" drill="0.8" rot="R90"/>
+<pad name="D13/LED" x="3.81" y="7.62" drill="0.8" rot="R90"/>
+<pad name="R-" x="-14.24" y="5.04" drill="0.7"/>
+<pad name="R+" x="-16.24" y="5.04" drill="0.7"/>
+<pad name="G" x="-14.24" y="3.04" drill="0.7"/>
+<pad name="T+" x="-14.24" y="1.04" drill="0.7"/>
+<pad name="LED" x="-16.24" y="3.04" drill="0.7"/>
+<pad name="T-" x="-16.24" y="1.04" drill="0.7"/>
+<pad name="5V" x="-22.86" y="-4.7" drill="0.75"/>
+<pad name="D-" x="-20.32" y="-4.7" drill="0.75"/>
+<pad name="D+" x="-17.78" y="-4.7" drill="0.75"/>
+<pad name="USB_GND" x="-15.24" y="-4.7" drill="0.75"/>
+<pad name="USB_GND@2" x="-12.7" y="-4.7" drill="0.75"/>
+</package>
+</packages>
+<symbols>
+<symbol name="DEV-16771">
+<wire x1="-17.78" y1="-45.72" x2="-7.62" y2="-45.72" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-45.72" x2="7.62" y2="-45.72" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-45.72" x2="17.78" y2="-45.72" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-45.72" x2="17.78" y2="27.94" width="0.254" layer="94"/>
+<wire x1="17.78" y1="27.94" x2="17.78" y2="40.64" width="0.254" layer="94"/>
+<wire x1="17.78" y1="40.64" x2="17.78" y2="45.72" width="0.254" layer="94"/>
+<wire x1="17.78" y1="45.72" x2="-17.78" y2="45.72" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="45.72" x2="-17.78" y2="40.64" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="40.64" x2="-17.78" y2="25.4" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="25.4" x2="-17.78" y2="-45.72" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="40.64" x2="-10.16" y2="40.64" width="0.254" layer="94" style="shortdash"/>
+<wire x1="-10.16" y1="40.64" x2="-10.16" y2="25.4" width="0.254" layer="94" style="shortdash"/>
+<wire x1="-10.16" y1="25.4" x2="-17.78" y2="25.4" width="0.254" layer="94" style="shortdash"/>
+<wire x1="17.78" y1="40.64" x2="2.54" y2="40.64" width="0.254" layer="94" style="shortdash"/>
+<wire x1="2.54" y1="40.64" x2="2.54" y2="27.94" width="0.254" layer="94" style="shortdash"/>
+<wire x1="2.54" y1="27.94" x2="17.78" y2="27.94" width="0.254" layer="94" style="shortdash"/>
+<wire x1="-7.62" y1="-45.72" x2="-7.62" y2="-34.29" width="0.254" layer="94" style="shortdash"/>
+<wire x1="-7.62" y1="-34.29" x2="7.62" y2="-34.29" width="0.254" layer="94" style="shortdash"/>
+<wire x1="7.62" y1="-34.29" x2="7.62" y2="-45.72" width="0.254" layer="94" style="shortdash"/>
+<text x="-20.32" y="46.99" size="1.778" layer="95">&gt;NAME</text>
+<text x="22.86" y="46.99" size="1.778" layer="96" align="bottom-right">&gt;VALUE</text>
+<text x="0" y="43.815" size="1.9304" layer="97" align="center">TEENSY 4.1</text>
+<pin name="D0" x="-22.86" y="17.78" visible="pin" length="middle"/>
+<pin name="GND" x="-22.86" y="20.32" visible="pin" length="middle" direction="pwr"/>
+<pin name="D1" x="-22.86" y="15.24" visible="pin" length="middle"/>
+<pin name="D2" x="-22.86" y="12.7" visible="pin" length="middle"/>
+<pin name="D3" x="-22.86" y="10.16" visible="pin" length="middle"/>
+<pin name="D4" x="-22.86" y="7.62" visible="pin" length="middle"/>
+<pin name="D5" x="-22.86" y="5.08" visible="pin" length="middle"/>
+<pin name="D6" x="-22.86" y="2.54" visible="pin" length="middle"/>
+<pin name="D7" x="-22.86" y="0" visible="pin" length="middle"/>
+<pin name="D8" x="-22.86" y="-2.54" visible="pin" length="middle"/>
+<pin name="D9" x="-22.86" y="-5.08" visible="pin" length="middle"/>
+<pin name="D10" x="-22.86" y="-7.62" visible="pin" length="middle"/>
+<pin name="D11" x="-22.86" y="-10.16" visible="pin" length="middle"/>
+<pin name="D12" x="-22.86" y="-12.7" visible="pin" length="middle"/>
+<pin name="3.3V" x="-22.86" y="-15.24" visible="pin" length="middle" direction="pwr"/>
+<pin name="D24/A10" x="-22.86" y="-17.78" visible="pin" length="middle"/>
+<pin name="D25/A11" x="-22.86" y="-20.32" visible="pin" length="middle"/>
+<pin name="D26/A12" x="-22.86" y="-22.86" visible="pin" length="middle"/>
+<pin name="D27/A13" x="-22.86" y="-25.4" visible="pin" length="middle"/>
+<pin name="D28" x="-22.86" y="-27.94" visible="pin" length="middle"/>
+<pin name="D29" x="-22.86" y="-30.48" visible="pin" length="middle"/>
+<pin name="D30" x="-22.86" y="-33.02" visible="pin" length="middle"/>
+<pin name="D31" x="-22.86" y="-35.56" visible="pin" length="middle"/>
+<pin name="D32" x="-22.86" y="-38.1" visible="pin" length="middle"/>
+<pin name="VBAT" x="-5.08" y="-50.8" length="middle" direction="pwr" rot="R90"/>
+<pin name="3.3V@2" x="-2.54" y="-50.8" length="middle" direction="pwr" rot="R90"/>
+<pin name="GND@2" x="0" y="-50.8" length="middle" direction="pwr" rot="R90"/>
+<pin name="PROG" x="2.54" y="-50.8" length="middle" rot="R90"/>
+<pin name="ON/OFF" x="5.08" y="-50.8" length="middle" rot="R90"/>
+<pin name="D33" x="22.86" y="-38.1" visible="pin" length="middle" rot="R180"/>
+<pin name="D34" x="22.86" y="-35.56" visible="pin" length="middle" rot="R180"/>
+<pin name="D35" x="22.86" y="-33.02" visible="pin" length="middle" rot="R180"/>
+<pin name="D36" x="22.86" y="-30.48" visible="pin" length="middle" rot="R180"/>
+<pin name="D37" x="22.86" y="-27.94" visible="pin" length="middle" rot="R180"/>
+<pin name="D38/A14" x="22.86" y="-25.4" visible="pin" length="middle" rot="R180"/>
+<pin name="D39/A15" x="22.86" y="-22.86" visible="pin" length="middle" rot="R180"/>
+<pin name="D40/A16" x="22.86" y="-20.32" visible="pin" length="middle" rot="R180"/>
+<pin name="D41/A17" x="22.86" y="-17.78" visible="pin" length="middle" rot="R180"/>
+<pin name="GND@1" x="22.86" y="-15.24" visible="pin" length="middle" direction="pwr" rot="R180"/>
+<pin name="D13/LED" x="22.86" y="-12.7" visible="pin" length="middle" rot="R180"/>
+<pin name="D14/A0" x="22.86" y="-10.16" visible="pin" length="middle" rot="R180"/>
+<pin name="D14/A1" x="22.86" y="-7.62" visible="pin" length="middle" rot="R180"/>
+<pin name="D15/A2" x="22.86" y="-5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="D16/A3" x="22.86" y="-2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="D17/A4" x="22.86" y="0" visible="pin" length="middle" rot="R180"/>
+<pin name="D18/A5" x="22.86" y="2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="D19/A6" x="22.86" y="5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="D20/A7" x="22.86" y="7.62" visible="pin" length="middle" rot="R180"/>
+<pin name="D21/A8" x="22.86" y="10.16" visible="pin" length="middle" rot="R180"/>
+<pin name="D22/A9" x="22.86" y="12.7" visible="pin" length="middle" rot="R180"/>
+<pin name="3.3V@1" x="22.86" y="15.24" visible="pin" length="middle" direction="pwr" rot="R180"/>
+<pin name="AGND" x="22.86" y="17.78" visible="pin" length="middle" direction="pwr" rot="R180"/>
+<pin name="VIN" x="22.86" y="22.86" visible="pin" length="middle" direction="pwr" rot="R180"/>
+<pin name="USB_GND2" x="22.86" y="29.21" visible="pin" length="middle" direction="pwr" rot="R180"/>
+<pin name="USB_GND1" x="22.86" y="31.75" visible="pin" length="middle" direction="pwr" rot="R180"/>
+<pin name="D+" x="22.86" y="34.29" visible="pin" length="middle" rot="R180"/>
+<pin name="D-" x="22.86" y="36.83" visible="pin" length="middle" rot="R180"/>
+<pin name="5V" x="22.86" y="39.37" visible="pin" length="middle" direction="pwr" rot="R180"/>
+<pin name="R+" x="-22.86" y="39.37" visible="pin" length="middle"/>
+<pin name="R-" x="-22.86" y="36.83" visible="pin" length="middle"/>
+<pin name="G" x="-22.86" y="29.21" visible="pin" length="middle" direction="pwr"/>
+<pin name="T+" x="-22.86" y="34.29" visible="pin" length="middle"/>
+<pin name="T-" x="-22.86" y="31.75" visible="pin" length="middle"/>
+<pin name="LED" x="-22.86" y="26.67" visible="pin" length="middle" direction="in"/>
+<pin name="VUSB" x="22.86" y="20.32" visible="pin" length="middle" direction="pwr" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="DEV-16771">
+<description>Teensy 4.1 i.MX ARM® Cortex®-M7 MPU Embedded Evaluation Board &lt;a href="https://pricing.snapeda.com/search/part/DEV-16771/?ref=eda"&gt;Check prices&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="DEV-16771" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DEV-16771">
+<connects>
+<connect gate="G$1" pin="3.3V" pad="3.3V"/>
+<connect gate="G$1" pin="3.3V@1" pad="3.3V@1"/>
+<connect gate="G$1" pin="3.3V@2" pad="3.3V@2"/>
+<connect gate="G$1" pin="5V" pad="5V"/>
+<connect gate="G$1" pin="AGND" pad="AGND"/>
+<connect gate="G$1" pin="D+" pad="D+"/>
+<connect gate="G$1" pin="D-" pad="D-"/>
+<connect gate="G$1" pin="D0" pad="D0"/>
+<connect gate="G$1" pin="D1" pad="D1"/>
+<connect gate="G$1" pin="D10" pad="D10"/>
+<connect gate="G$1" pin="D11" pad="D11"/>
+<connect gate="G$1" pin="D12" pad="D12"/>
+<connect gate="G$1" pin="D13/LED" pad="D13/LED"/>
+<connect gate="G$1" pin="D14/A0" pad="D14/A0"/>
+<connect gate="G$1" pin="D14/A1" pad="D15/A1"/>
+<connect gate="G$1" pin="D15/A2" pad="D16/A2"/>
+<connect gate="G$1" pin="D16/A3" pad="D17/A3"/>
+<connect gate="G$1" pin="D17/A4" pad="D18/A4"/>
+<connect gate="G$1" pin="D18/A5" pad="D19/A5"/>
+<connect gate="G$1" pin="D19/A6" pad="D20/A6"/>
+<connect gate="G$1" pin="D2" pad="D2"/>
+<connect gate="G$1" pin="D20/A7" pad="D21/A7"/>
+<connect gate="G$1" pin="D21/A8" pad="D22/A8"/>
+<connect gate="G$1" pin="D22/A9" pad="D23/A9"/>
+<connect gate="G$1" pin="D24/A10" pad="D24/A10"/>
+<connect gate="G$1" pin="D25/A11" pad="D25/A11"/>
+<connect gate="G$1" pin="D26/A12" pad="D26/A12"/>
+<connect gate="G$1" pin="D27/A13" pad="D27/A13"/>
+<connect gate="G$1" pin="D28" pad="D28"/>
+<connect gate="G$1" pin="D29" pad="D29"/>
+<connect gate="G$1" pin="D3" pad="D3"/>
+<connect gate="G$1" pin="D30" pad="D30"/>
+<connect gate="G$1" pin="D31" pad="D31"/>
+<connect gate="G$1" pin="D32" pad="D32"/>
+<connect gate="G$1" pin="D33" pad="D33"/>
+<connect gate="G$1" pin="D34" pad="D34"/>
+<connect gate="G$1" pin="D35" pad="D35"/>
+<connect gate="G$1" pin="D36" pad="D36"/>
+<connect gate="G$1" pin="D37" pad="D37"/>
+<connect gate="G$1" pin="D38/A14" pad="D38/A14"/>
+<connect gate="G$1" pin="D39/A15" pad="D39/A15"/>
+<connect gate="G$1" pin="D4" pad="D4"/>
+<connect gate="G$1" pin="D40/A16" pad="D40/A16"/>
+<connect gate="G$1" pin="D41/A17" pad="D41/A17"/>
+<connect gate="G$1" pin="D5" pad="D5"/>
+<connect gate="G$1" pin="D6" pad="D6"/>
+<connect gate="G$1" pin="D7" pad="D7"/>
+<connect gate="G$1" pin="D8" pad="D8"/>
+<connect gate="G$1" pin="D9" pad="D9"/>
+<connect gate="G$1" pin="G" pad="G"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="GND@1" pad="GND@1"/>
+<connect gate="G$1" pin="GND@2" pad="GND@2"/>
+<connect gate="G$1" pin="LED" pad="LED"/>
+<connect gate="G$1" pin="ON/OFF" pad="ON/OFF"/>
+<connect gate="G$1" pin="PROG" pad="PROGRAM"/>
+<connect gate="G$1" pin="R+" pad="R+"/>
+<connect gate="G$1" pin="R-" pad="R-"/>
+<connect gate="G$1" pin="T+" pad="T+"/>
+<connect gate="G$1" pin="T-" pad="T-"/>
+<connect gate="G$1" pin="USB_GND1" pad="USB_GND"/>
+<connect gate="G$1" pin="USB_GND2" pad="USB_GND@2"/>
+<connect gate="G$1" pin="VBAT" pad="VBAT"/>
+<connect gate="G$1" pin="VIN" pad="VIN"/>
+<connect gate="G$1" pin="VUSB" pad="VUSB"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="Price" value="None"/>
+<attribute name="Purchase-URL" value="https://pricing.snapeda.com/search/part/DEV-16771/?ref=eda"/>
+<attribute name="MF" value="SparkFun Electronics"/>
+<attribute name="Description" value="
+RT1062 Teensy 4.1 i.MX ARM® Cortex®-M7 MPU Embedded Evaluation Board
+"/>
+<attribute name="MP" value="DEV-16771"/>
+<attribute name="Package" value="None"/>
+<attribute name="Availability" value="Warning"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+</drawing>
+</eagle>
