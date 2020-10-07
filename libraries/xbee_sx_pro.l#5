@@ -64,7 +64,7 @@
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="93" name="Pins" color="2" fill="1" visible="no" active="yes"/>
+<layer number="93" name="Pins" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="94" name="Symbols" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="95" name="Names" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="96" name="Values" color="7" fill="1" visible="yes" active="yes"/>
@@ -73,7 +73,7 @@
 </layers>
 <library>
 <packages>
-<package name="BEE_SX_PRO">
+<package name="XBEE_SX_PRO">
 <smd name="13" x="0" y="0" dx="1.52" dy="2.8" layer="1" rot="R90"/>
 <smd name="12" x="0" y="2" dx="1.52" dy="2.8" layer="1" rot="R90"/>
 <smd name="11" x="0" y="4" dx="1.52" dy="2.8" layer="1" rot="R90"/>
@@ -128,6 +128,48 @@
 </packages>
 <symbols>
 <symbol name="XBEE_SX_PRO">
+<pin name="GND@1" x="-5.08" y="35.56" length="middle"/>
+<pin name="VCC" x="-5.08" y="33.02" length="middle" direction="pwr"/>
+<pin name="DIO13/DOUT" x="-5.08" y="30.48" length="middle"/>
+<pin name="DIO14/DIN/CONFIG" x="-5.08" y="27.94" length="middle"/>
+<pin name="DIO12" x="-5.08" y="25.4" length="middle"/>
+<pin name="RESET" x="-5.08" y="22.86" length="middle"/>
+<pin name="DIO10" x="-5.08" y="20.32" length="middle"/>
+<pin name="DIO11" x="-5.08" y="17.78" length="middle"/>
+<pin name="NC@1" x="-5.08" y="15.24" length="middle" direction="nc"/>
+<pin name="DIO8" x="-5.08" y="12.7" length="middle"/>
+<pin name="GND1" x="-5.08" y="10.16" length="middle"/>
+<pin name="DIO19" x="-5.08" y="7.62" length="middle"/>
+<pin name="GND@2" x="-5.08" y="5.08" length="middle" direction="pwr"/>
+<pin name="DIO18/SPI_CLK" x="10.16" y="-2.54" length="middle" rot="R90"/>
+<pin name="DIO17/SPI_SS" x="12.7" y="-2.54" length="middle" rot="R90"/>
+<pin name="DIO16/SPI_MOSI" x="15.24" y="-2.54" length="middle" rot="R90"/>
+<pin name="DIO15/SPI_MISO" x="17.78" y="-2.54" length="middle" rot="R90"/>
+<pin name="NC@2" x="20.32" y="-2.54" length="middle" direction="nc" rot="R90"/>
+<pin name="NC@3" x="22.86" y="-2.54" length="middle" direction="nc" rot="R90"/>
+<pin name="NC@4" x="25.4" y="-2.54" length="middle" direction="nc" rot="R90"/>
+<pin name="NC@5" x="27.94" y="-2.54" length="middle" direction="nc" rot="R90"/>
+<pin name="GND@3" x="43.18" y="5.08" length="middle" direction="pwr" rot="R180"/>
+<pin name="NC@6" x="43.18" y="7.62" length="middle" direction="nc" rot="R180"/>
+<pin name="DIO4" x="43.18" y="10.16" length="middle" rot="R180"/>
+<pin name="DIO7" x="43.18" y="12.7" length="middle" rot="R180"/>
+<pin name="DIO9/ON/SLEEP" x="43.18" y="15.24" length="middle" rot="R180"/>
+<pin name="VREF/NC" x="43.18" y="17.78" length="middle" rot="R180"/>
+<pin name="DIO5" x="43.18" y="20.32" length="middle" rot="R180"/>
+<pin name="DIO6" x="43.18" y="22.86" length="middle" rot="R180"/>
+<pin name="DIO3/AD3" x="43.18" y="25.4" length="middle" rot="R180"/>
+<pin name="DIO2/AD2" x="43.18" y="27.94" length="middle" rot="R180"/>
+<pin name="DIO1/AD1" x="43.18" y="30.48" length="middle" rot="R180"/>
+<pin name="DIO0/AD0" x="43.18" y="33.02" length="middle" rot="R180"/>
+<pin name="NC@7" x="43.18" y="35.56" length="middle" direction="nc" rot="R180"/>
+<pin name="GND@4" x="43.18" y="38.1" length="middle" direction="pwr" rot="R180"/>
+<pin name="RF_PAD" x="43.18" y="40.64" length="middle" rot="R180"/>
+<pin name="NC" x="43.18" y="43.18" length="middle" rot="R180"/>
+<pin name="GND@5" x="-5.08" y="43.18" length="middle" direction="pwr"/>
+<wire x1="0" y1="2.54" x2="38.1" y2="2.54" width="0.254" layer="94"/>
+<wire x1="38.1" y1="2.54" x2="38.1" y2="53.34" width="0.254" layer="94"/>
+<wire x1="38.1" y1="53.34" x2="0" y2="53.34" width="0.254" layer="94"/>
+<wire x1="0" y1="53.34" x2="0" y2="2.54" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>

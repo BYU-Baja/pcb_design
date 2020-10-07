@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -128,7 +128,7 @@
 </packages>
 <symbols>
 <symbol name="XBEE_SX_PRO">
-<pin name="GND@1" x="-5.08" y="35.56" length="middle"/>
+<pin name="GND@0" x="-5.08" y="35.56" length="middle"/>
 <pin name="VCC" x="-5.08" y="33.02" length="middle" direction="pwr"/>
 <pin name="DIO13/DOUT" x="-5.08" y="30.48" length="middle"/>
 <pin name="DIO14/DIN/CONFIG" x="-5.08" y="27.94" length="middle"/>
@@ -138,7 +138,7 @@
 <pin name="DIO11" x="-5.08" y="17.78" length="middle"/>
 <pin name="NC@1" x="-5.08" y="15.24" length="middle" direction="nc"/>
 <pin name="DIO8" x="-5.08" y="12.7" length="middle"/>
-<pin name="GND1" x="-5.08" y="10.16" length="middle"/>
+<pin name="GND@1" x="-5.08" y="10.16" length="middle"/>
 <pin name="DIO19" x="-5.08" y="7.62" length="middle"/>
 <pin name="GND@2" x="-5.08" y="5.08" length="middle" direction="pwr"/>
 <pin name="DIO18/SPI_CLK" x="10.16" y="-2.54" length="middle" rot="R90"/>
@@ -177,9 +177,50 @@
 <devicesets>
 <deviceset name="XBEE_SX_PRO">
 <gates>
+<gate name="G$1" symbol="XBEE_SX_PRO" x="-76.2" y="-22.86"/>
 </gates>
 <devices>
-<device name="">
+<device name="" package="XBEE_SX_PRO">
+<connects>
+<connect gate="G$1" pin="DIO0/AD0" pad="33"/>
+<connect gate="G$1" pin="DIO1/AD1" pad="32"/>
+<connect gate="G$1" pin="DIO10" pad="7"/>
+<connect gate="G$1" pin="DIO11" pad="8"/>
+<connect gate="G$1" pin="DIO12" pad="5"/>
+<connect gate="G$1" pin="DIO13/DOUT" pad="3"/>
+<connect gate="G$1" pin="DIO14/DIN/CONFIG" pad="4"/>
+<connect gate="G$1" pin="DIO15/SPI_MISO" pad="17"/>
+<connect gate="G$1" pin="DIO16/SPI_MOSI" pad="16"/>
+<connect gate="G$1" pin="DIO17/SPI_SS" pad="15"/>
+<connect gate="G$1" pin="DIO18/SPI_CLK" pad="14"/>
+<connect gate="G$1" pin="DIO19" pad="12"/>
+<connect gate="G$1" pin="DIO2/AD2" pad="31"/>
+<connect gate="G$1" pin="DIO3/AD3" pad="30"/>
+<connect gate="G$1" pin="DIO4" pad="24"/>
+<connect gate="G$1" pin="DIO5" pad="28"/>
+<connect gate="G$1" pin="DIO6" pad="29"/>
+<connect gate="G$1" pin="DIO7" pad="25"/>
+<connect gate="G$1" pin="DIO8" pad="10"/>
+<connect gate="G$1" pin="DIO9/ON/SLEEP" pad="26"/>
+<connect gate="G$1" pin="GND@0" pad="1"/>
+<connect gate="G$1" pin="GND@1" pad="11"/>
+<connect gate="G$1" pin="GND@2" pad="13"/>
+<connect gate="G$1" pin="GND@3" pad="22"/>
+<connect gate="G$1" pin="GND@4" pad="35"/>
+<connect gate="G$1" pin="GND@5" pad="38"/>
+<connect gate="G$1" pin="NC" pad="37"/>
+<connect gate="G$1" pin="NC@1" pad="9"/>
+<connect gate="G$1" pin="NC@2" pad="18"/>
+<connect gate="G$1" pin="NC@3" pad="19"/>
+<connect gate="G$1" pin="NC@4" pad="20"/>
+<connect gate="G$1" pin="NC@5" pad="21"/>
+<connect gate="G$1" pin="NC@6" pad="23"/>
+<connect gate="G$1" pin="NC@7" pad="34"/>
+<connect gate="G$1" pin="RESET" pad="6"/>
+<connect gate="G$1" pin="RF_PAD" pad="36"/>
+<connect gate="G$1" pin="VCC" pad="2"/>
+<connect gate="G$1" pin="VREF/NC" pad="27"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
