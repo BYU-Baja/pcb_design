@@ -796,65 +796,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 </library>
-<library name="BSS138">
-<packages>
-<package name="SOT95P240X111-3N">
-<wire x1="-0.65" y1="-1.45" x2="-0.65" y2="1.45" width="0.127" layer="51"/>
-<wire x1="-0.65" y1="1.45" x2="0.65" y2="1.45" width="0.127" layer="51"/>
-<wire x1="0.65" y1="1.45" x2="0.65" y2="-1.45" width="0.127" layer="51"/>
-<wire x1="0.65" y1="-1.45" x2="-0.65" y2="-1.45" width="0.127" layer="51"/>
-<wire x1="-0.65" y1="1.57" x2="0.65" y2="1.57" width="0.127" layer="21"/>
-<wire x1="-0.65" y1="-1.57" x2="0.65" y2="-1.57" width="0.127" layer="21"/>
-<wire x1="-1.925" y1="1.7" x2="1.925" y2="1.7" width="0.05" layer="39"/>
-<wire x1="1.925" y1="-1.7" x2="-1.925" y2="-1.7" width="0.05" layer="39"/>
-<wire x1="-1.925" y1="-1.7" x2="-1.925" y2="1.7" width="0.05" layer="39"/>
-<wire x1="1.925" y1="-1.7" x2="1.925" y2="1.7" width="0.05" layer="39"/>
-<circle x="-2.25" y="1.3" radius="0.1" width="0.2" layer="21"/>
-<circle x="-2.25" y="1.3" radius="0.1" width="0.2" layer="51"/>
-<text x="-2" y="2" size="0.8128" layer="25">&gt;NAME</text>
-<text x="-2" y="-2" size="0.8128" layer="27" align="top-left">&gt;VALUE</text>
-<wire x1="0.65" y1="1.57" x2="0.65" y2="0.62" width="0.127" layer="21"/>
-<wire x1="0.65" y1="-1.57" x2="0.65" y2="-0.62" width="0.127" layer="21"/>
-<smd name="1" x="-1.06" y="0.95" dx="1.23" dy="0.6" layer="1" roundness="25"/>
-<smd name="3" x="1.06" y="0" dx="1.23" dy="0.6" layer="1" roundness="25"/>
-<smd name="2" x="-1.06" y="-0.95" dx="1.23" dy="0.6" layer="1" roundness="25"/>
-</package>
-</packages>
-</library>
-<library name="SparkFun-Resistors">
-<description>&lt;h3&gt;SparkFun Resistors&lt;/h3&gt;
-This library contains resistors. Reference designator:R. 
-&lt;br&gt;
-&lt;br&gt;
-We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
-&lt;br&gt;
-&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
-&lt;br&gt;
-&lt;br&gt;
-&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
-&lt;br&gt;
-&lt;br&gt;
-You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
-<packages>
-<package name="0603">
-<description>&lt;p&gt;&lt;b&gt;Generic 1608 (0603) package&lt;/b&gt;&lt;/p&gt;
-&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
-<wire x1="-1.6" y1="0.7" x2="1.6" y2="0.7" width="0.0508" layer="39"/>
-<wire x1="1.6" y1="0.7" x2="1.6" y2="-0.7" width="0.0508" layer="39"/>
-<wire x1="1.6" y1="-0.7" x2="-1.6" y2="-0.7" width="0.0508" layer="39"/>
-<wire x1="-1.6" y1="-0.7" x2="-1.6" y2="0.7" width="0.0508" layer="39"/>
-<wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
-<wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
-<smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<text x="0" y="0.762" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-0.762" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
-<rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
-<rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
-<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
-</package>
-</packages>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1097,6 +1038,11 @@ design rules under a new name.</description>
 <attribute name="PROD_ID" value="VREG-13917" x="-19.05" y="-12.7" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-20.1295" y="-12.8905" size="0.4064" layer="27"/>
 </element>
+<element name="U$3" library="SparkFun-IC-Power" package="SOT223" value="V_REG_LD1117VXXLD1117-SMD" x="-26.67" y="-12.7" smashed="yes">
+<attribute name="NAME" x="-27.4955" y="-8.1915" size="0.4064" layer="25"/>
+<attribute name="PROD_ID" value="VREG-13917" x="-26.67" y="-12.7" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="-27.7495" y="-12.8905" size="0.4064" layer="27"/>
+</element>
 <element name="C1" library="SparkFun-Capacitors" package="0603" value="10uF" x="-27.94" y="-20.32" smashed="yes">
 <attribute name="NAME" x="-27.94" y="-19.558" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-11015" x="-27.94" y="-20.32" size="1.778" layer="27" display="off"/>
@@ -1106,63 +1052,6 @@ design rules under a new name.</description>
 <attribute name="NAME" x="-27.94" y="-23.368" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="PROD_ID" value="CAP-00868" x="-27.94" y="-24.13" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="-27.94" y="-24.892" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
-</element>
-<element name="U$3" library="SparkFun-IC-Power" package="SOT223" value="SOTP223 5V" x="-25.4" y="-31.75" smashed="yes">
-<attribute name="NAME" x="-26.2255" y="-27.2415" size="0.4064" layer="25"/>
-<attribute name="PROD_ID" value="VREG-13917" x="-33.02" y="-20.32" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-26.4795" y="-31.9405" size="0.4064" layer="27"/>
-</element>
-<element name="C5" library="SparkFun-Capacitors" package="0603" value="10uF" x="-27.94" y="-38.1" smashed="yes">
-<attribute name="NAME" x="-27.94" y="-37.338" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="CAP-11015" x="-34.29" y="-27.94" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-27.94" y="-38.862" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
-</element>
-<element name="C6" library="SparkFun-Capacitors" package="0603" value="1.0uF" x="-24.13" y="-38.1" smashed="yes">
-<attribute name="NAME" x="-24.13" y="-37.338" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="CAP-00868" x="-34.29" y="-31.75" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-24.13" y="-38.862" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
-</element>
-<element name="Q1" library="BSS138" package="SOT95P240X111-3N" value="BSS138" x="-33.02" y="-35.56" smashed="yes">
-<attribute name="AVAILABILITY" value="Good" x="-33.02" y="-35.56" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value=" N-Channel 50V 220mA (Ta) 360mW (Ta) Surface Mount SOT-23-3 " x="-33.02" y="-35.56" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="ON Semiconductor" x="-33.02" y="-35.56" size="1.778" layer="27" display="off"/>
-<attribute name="MP" value="BSS138" x="-33.02" y="-35.56" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-35.02" y="-33.56" size="0.8128" layer="25"/>
-<attribute name="PACKAGE" value="SOT-23 ON Semiconductor" x="-33.02" y="-35.56" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="None" x="-33.02" y="-35.56" size="1.778" layer="27" display="off"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/BSS138/?ref=eda" x="-33.02" y="-35.56" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-35.02" y="-37.56" size="0.8128" layer="27" align="top-left"/>
-</element>
-<element name="Q2" library="BSS138" package="SOT95P240X111-3N" value="BSS138" x="-39.37" y="-35.56" smashed="yes">
-<attribute name="AVAILABILITY" value="Good" x="-39.37" y="-35.56" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value=" N-Channel 50V 220mA (Ta) 360mW (Ta) Surface Mount SOT-23-3 " x="-39.37" y="-35.56" size="1.778" layer="27" display="off"/>
-<attribute name="MF" value="ON Semiconductor" x="-39.37" y="-35.56" size="1.778" layer="27" display="off"/>
-<attribute name="MP" value="BSS138" x="-39.37" y="-35.56" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="-41.37" y="-33.56" size="0.8128" layer="25"/>
-<attribute name="PACKAGE" value="SOT-23 ON Semiconductor" x="-39.37" y="-35.56" size="1.778" layer="27" display="off"/>
-<attribute name="PRICE" value="None" x="-39.37" y="-35.56" size="1.778" layer="27" display="off"/>
-<attribute name="PURCHASE-URL" value="https://pricing.snapeda.com/search/part/BSS138/?ref=eda" x="-39.37" y="-35.56" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-41.37" y="-37.56" size="0.8128" layer="27" align="top-left"/>
-</element>
-<element name="R1" library="SparkFun-Resistors" package="0603" value="10k" x="-39.37" y="-41.91" smashed="yes">
-<attribute name="NAME" x="-39.37" y="-41.148" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-00824" x="-39.37" y="-41.91" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-39.37" y="-42.672" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
-</element>
-<element name="R2" library="SparkFun-Resistors" package="0603" value="10k" x="-39.37" y="-45.72" smashed="yes">
-<attribute name="NAME" x="-39.37" y="-44.958" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-00824" x="-39.37" y="-45.72" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-39.37" y="-46.482" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
-</element>
-<element name="R3" library="SparkFun-Resistors" package="0603" value="10k" x="-39.37" y="-49.53" smashed="yes">
-<attribute name="NAME" x="-39.37" y="-48.768" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-00824" x="-39.37" y="-49.53" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-39.37" y="-50.292" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
-</element>
-<element name="R4" library="SparkFun-Resistors" package="0603" value="10k" x="-39.37" y="-53.34" smashed="yes">
-<attribute name="NAME" x="-39.37" y="-52.578" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="RES-00824" x="-39.37" y="-53.34" size="1.778" layer="27" display="off"/>
-<attribute name="VALUE" x="-39.37" y="-54.102" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 </elements>
 <signals>
@@ -1189,9 +1078,6 @@ design rules under a new name.</description>
 <contactref element="U$2" pad="1"/>
 <contactref element="C4" pad="1"/>
 <contactref element="C1" pad="2"/>
-<contactref element="U$3" pad="1"/>
-<contactref element="C6" pad="1"/>
-<contactref element="C5" pad="2"/>
 <wire x1="38.1" y1="25.4" x2="48.1584" y2="17.8816" width="0" layer="19" extent="16-16"/>
 <wire x1="5.6388" y1="21.336" x2="38.1" y2="25.4" width="0" layer="19" extent="16-16"/>
 <wire x1="5.08" y1="25.4" x2="5.6388" y2="21.336" width="0" layer="19" extent="16-16"/>
@@ -1201,9 +1087,6 @@ design rules under a new name.</description>
 <wire x1="-21.3614" y1="-15.7988" x2="-13.55" y2="-12.7" width="0" layer="19" extent="1-1"/>
 <wire x1="-27.09" y1="-20.32" x2="-21.3614" y2="-15.7988" width="0" layer="19" extent="1-1"/>
 <wire x1="-28.79" y1="-24.13" x2="-27.09" y2="-20.32" width="0" layer="19" extent="1-1"/>
-<wire x1="-27.7114" y1="-34.8488" x2="-28.79" y2="-24.13" width="0" layer="19" extent="1-1"/>
-<wire x1="-27.09" y1="-38.1" x2="-27.7114" y2="-34.8488" width="0" layer="19" extent="1-1"/>
-<wire x1="-24.98" y1="-38.1" x2="-27.09" y2="-38.1" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="3.3V">
 <contactref element="U$1" pad="3.3V"/>
@@ -1261,59 +1144,11 @@ design rules under a new name.</description>
 <contactref element="J1" pad="P$1"/>
 <contactref element="U$2" pad="3"/>
 <contactref element="C4" pad="2"/>
-<contactref element="U$3" pad="3"/>
-<contactref element="C6" pad="2"/>
-<wire x1="-23.0886" y1="-34.8488" x2="-23.28" y2="-38.1" width="0" layer="19" extent="1-1"/>
-<wire x1="-27.09" y1="-24.13" x2="-23.0886" y2="-34.8488" width="0" layer="19" extent="1-1"/>
 <wire x1="-16.7386" y1="-15.7988" x2="-27.09" y2="-24.13" width="0" layer="19" extent="1-1"/>
 <wire x1="-5.08" y1="-5.08" x2="-16.7386" y2="-15.7988" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="+5V">
 <contactref element="U$2" pad="2"/>
-<contactref element="C1" pad="1"/>
-<contactref element="R2" pad="2"/>
-<contactref element="Q1" pad="1"/>
-<contactref element="R3" pad="2"/>
-<contactref element="Q2" pad="1"/>
-<wire x1="-38.52" y1="-45.72" x2="-38.52" y2="-49.53" width="0" layer="19" extent="1-1"/>
-<wire x1="-40.43" y1="-34.61" x2="-38.52" y2="-45.72" width="0" layer="19" extent="1-1"/>
-<wire x1="-34.08" y1="-34.61" x2="-40.43" y2="-34.61" width="0" layer="19" extent="1-1"/>
-<wire x1="-28.79" y1="-20.32" x2="-34.08" y2="-34.61" width="0" layer="19" extent="1-1"/>
-<wire x1="-19.05" y1="-15.7988" x2="-28.79" y2="-20.32" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="+3.3V">
-<contactref element="U$3" pad="2"/>
-<contactref element="C5" pad="1"/>
-<wire x1="-25.4" y1="-34.8488" x2="-28.79" y2="-38.1" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$2">
-<contactref element="R2" pad="1"/>
-<contactref element="Q1" pad="2"/>
-<wire x1="-34.08" y1="-36.51" x2="-40.22" y2="-45.72" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$3">
-<contactref element="U$1" pad="D0"/>
-<contactref element="Q1" pad="3"/>
-<contactref element="R1" pad="1"/>
-<wire x1="-31.96" y1="-35.56" x2="-40.22" y2="-41.91" width="0" layer="19" extent="1-1"/>
-<wire x1="5.08" y1="10.16" x2="-31.96" y2="-35.56" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="TEENSY_3.3V">
-<contactref element="R1" pad="2"/>
-<contactref element="R4" pad="2"/>
-<wire x1="-38.52" y1="-41.91" x2="-38.52" y2="-53.34" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$11">
-<contactref element="R3" pad="1"/>
-<contactref element="Q2" pad="2"/>
-<wire x1="-40.43" y1="-36.51" x2="-40.22" y2="-49.53" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="N$12">
-<contactref element="Q2" pad="3"/>
-<contactref element="R4" pad="1"/>
-<contactref element="U$1" pad="D1"/>
-<wire x1="-38.31" y1="-35.56" x2="-40.22" y2="-53.34" width="0" layer="19" extent="1-1"/>
-<wire x1="7.62" y1="10.16" x2="-38.31" y2="-35.56" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

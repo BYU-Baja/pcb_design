@@ -2904,8 +2904,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="Q1" gate="G$1" pin="S"/>
 <wire x1="-55.88" y1="73.66" x2="-55.88" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="-55.88" y1="68.58" x2="-48.26" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="-55.88" y1="68.58" x2="-66.04" y2="68.58" width="0.1524" layer="91"/>
-<junction x="-55.88" y="68.58"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -2934,8 +2932,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-55.88" y1="45.72" x2="-55.88" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="Q2" gate="G$1" pin="S"/>
 <wire x1="-55.88" y1="40.64" x2="-48.26" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="-55.88" y1="40.64" x2="-66.04" y2="40.64" width="0.1524" layer="91"/>
-<junction x="-55.88" y="40.64"/>
 </segment>
 </net>
 <net name="N$12" class="0">
