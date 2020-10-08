@@ -1113,12 +1113,16 @@ design rules under a new name.</description>
 <signal name="N$36">
 <contactref element="U$1" pad="2"/>
 <contactref element="J2" pad="12"/>
-<wire x1="36.15" y1="33.4" x2="36.39" y2="33.4" width="0.8128" layer="1"/>
+<wire x1="32.004" y1="29.8704" x2="32.004" y2="29.2608" width="0.1524" layer="1"/>
+<wire x1="36.2712" y1="33.3756" x2="35.5092" y2="33.3756" width="0.1524" layer="1"/>
+<wire x1="32.004" y1="29.2608" x2="32" y2="29.25" width="0.1524" layer="1"/>
+<wire x1="36.2712" y1="33.3756" x2="36.39" y2="33.4" width="0.1524" layer="1"/>
+<wire x1="36.1256" y1="33.3756" x2="36.2712" y2="33.3756" width="0.8128" layer="1"/>
 <wire x1="32" y1="29.25" x2="32.6812" y2="29.9312" width="0.8128" layer="1"/>
 <wire x1="32.6812" y1="29.9312" x2="32.6812" y2="30.8814625" width="0.8128" layer="1"/>
 <wire x1="32.6812" y1="30.8814625" x2="33.0085375" y2="31.2088" width="0.8128" layer="1"/>
 <wire x1="33.0085375" y1="31.2088" x2="33.9588" y2="31.2088" width="0.8128" layer="1"/>
-<wire x1="33.9588" y1="31.2088" x2="36.15" y2="33.4" width="0.8128" layer="1"/>
+<wire x1="33.9588" y1="31.2088" x2="36.1256" y2="33.3756" width="0.8128" layer="1"/>
 </signal>
 <signal name="N$37">
 <contactref element="U$1" pad="1"/>
@@ -1128,13 +1132,6 @@ design rules under a new name.</description>
 <wire x1="34.1376" y1="29.2608" x2="34" y2="29.25" width="0.1524" layer="1"/>
 <wire x1="38.862" y1="33.3756" x2="38.93" y2="33.4" width="0.1524" layer="1"/>
 </signal>
-<signal name="N$38">
-<contactref element="U$1" pad="38"/>
-<contactref element="J2" pad="14"/>
-<wire x1="41.4528" y1="33.528" x2="31.0896" y2="23.1648" width="0.1524" layer="1"/>
-<wire x1="31.0896" y1="23.1648" x2="31" y2="23.15" width="0.1524" layer="1"/>
-<wire x1="41.4528" y1="33.528" x2="41.47" y2="33.4" width="0.1524" layer="1"/>
-</signal>
 <signal name="GND">
 <polygon width="0.8128" layer="1">
 <vertex x="0" y="36"/>
@@ -1142,6 +1139,66 @@ design rules under a new name.</description>
 <vertex x="48" y="0"/>
 <vertex x="0" y="0"/>
 </polygon>
+<polygon width="0.8128" layer="16">
+<vertex x="0" y="36"/>
+<vertex x="48" y="36"/>
+<vertex x="48" y="0"/>
+<vertex x="0" y="0"/>
+</polygon>
+<via x="12" y="25" extent="1-16" drill="0.35"/>
+<via x="27" y="10" extent="1-16" drill="0.35"/>
+<via x="15" y="10" extent="1-16" drill="0.35"/>
+<via x="15" y="25" extent="1-16" drill="0.35"/>
+<via x="18" y="25" extent="1-16" drill="0.35"/>
+<via x="21" y="25" extent="1-16" drill="0.35"/>
+<via x="24" y="25" extent="1-16" drill="0.35"/>
+<via x="27" y="25" extent="1-16" drill="0.35"/>
+<via x="31" y="26" extent="1-16" drill="0.35"/>
+<via x="35" y="25" extent="1-16" drill="0.35"/>
+<via x="38" y="25" extent="1-16" drill="0.35"/>
+<via x="38" y="22" extent="1-16" drill="0.35"/>
+<via x="35" y="22" extent="1-16" drill="0.35"/>
+<via x="27" y="22" extent="1-16" drill="0.35"/>
+<via x="24" y="22" extent="1-16" drill="0.35"/>
+<via x="21" y="22" extent="1-16" drill="0.35"/>
+<via x="18" y="22" extent="1-16" drill="0.35"/>
+<via x="15" y="22" extent="1-16" drill="0.35"/>
+<via x="12" y="22" extent="1-16" drill="0.35"/>
+<via x="12" y="19" extent="1-16" drill="0.35"/>
+<via x="15" y="19" extent="1-16" drill="0.35"/>
+<via x="18" y="19" extent="1-16" drill="0.35"/>
+<via x="21" y="19" extent="1-16" drill="0.35"/>
+<via x="24" y="19" extent="1-16" drill="0.35"/>
+<via x="27" y="19" extent="1-16" drill="0.35"/>
+<via x="31" y="19" extent="1-16" drill="0.35"/>
+<via x="35" y="19" extent="1-16" drill="0.35"/>
+<via x="38" y="19" extent="1-16" drill="0.35"/>
+<via x="12" y="16" extent="1-16" drill="0.35"/>
+<via x="15" y="16" extent="1-16" drill="0.35"/>
+<via x="18" y="16" extent="1-16" drill="0.35"/>
+<via x="21" y="16" extent="1-16" drill="0.35"/>
+<via x="24" y="16" extent="1-16" drill="0.35"/>
+<via x="27" y="16" extent="1-16" drill="0.35"/>
+<via x="31" y="16" extent="1-16" drill="0.35"/>
+<via x="35" y="16" extent="1-16" drill="0.35"/>
+<via x="38" y="16" extent="1-16" drill="0.35"/>
+<via x="38" y="13" extent="1-16" drill="0.35"/>
+<via x="38" y="10" extent="1-16" drill="0.35"/>
+<via x="27" y="13" extent="1-16" drill="0.35"/>
+<via x="24" y="13" extent="1-16" drill="0.35"/>
+<via x="21" y="13" extent="1-16" drill="0.35"/>
+<via x="24" y="10" extent="1-16" drill="0.35"/>
+<via x="21" y="10" extent="1-16" drill="0.35"/>
+<via x="18" y="10" extent="1-16" drill="0.35"/>
+<via x="18" y="13" extent="1-16" drill="0.35"/>
+<via x="15" y="13" extent="1-16" drill="0.35"/>
+<via x="12" y="13" extent="1-16" drill="0.35"/>
+<via x="12" y="10" extent="1-16" drill="0.35"/>
+<contactref element="U$1" pad="38"/>
+<contactref element="J2" pad="14"/>
+<wire x1="41.4528" y1="33.528" x2="31.0896" y2="23.1648" width="0.1524" layer="1"/>
+<wire x1="31.0896" y1="23.1648" x2="31" y2="23.15" width="0.1524" layer="1"/>
+<wire x1="41.4528" y1="33.528" x2="41.47" y2="33.4" width="0.1524" layer="1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

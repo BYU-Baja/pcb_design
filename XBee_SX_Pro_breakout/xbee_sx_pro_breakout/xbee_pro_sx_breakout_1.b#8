@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="5" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mm" altunit="mm"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
@@ -52,7 +52,7 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
@@ -190,6 +190,14 @@
 <wire x1="48" y1="0" x2="48" y2="36" width="0" layer="20"/>
 <wire x1="48" y1="36" x2="0" y2="36" width="0" layer="20"/>
 <wire x1="0" y1="36" x2="0" y2="0" width="0" layer="20"/>
+<rectangle x1="31" y1="8.8" x2="35.2" y2="15.2" layer="39"/>
+<rectangle x1="31" y1="8.8" x2="35.2" y2="15.2" layer="40"/>
+<hole x="3" y="33" drill="5"/>
+<hole x="3" y="3" drill="5"/>
+<hole x="45" y="30" drill="5"/>
+<hole x="45" y="8" drill="5"/>
+<rectangle x1="31" y1="8.8" x2="35.2" y2="15.2" layer="41"/>
+<rectangle x1="31" y1="8.8" x2="35.2" y2="15.2" layer="42"/>
 </plain>
 <libraries>
 <library name="SparkFun-Connectors">

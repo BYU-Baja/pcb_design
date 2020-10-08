@@ -3279,7 +3279,7 @@ This footprint was designed to help hold the alignment of a through-hole compone
 <wire x1="43.18" y1="68.58" x2="48.26" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$38" class="0">
+<net name="GND" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="GND@5"/>
 <wire x1="48.26" y1="76.2" x2="48.26" y2="71.12" width="0.1524" layer="91"/>
