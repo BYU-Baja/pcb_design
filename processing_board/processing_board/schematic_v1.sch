@@ -2948,6 +2948,164 @@ Arduino Uno R3 Compatible Footprint. Matches PCB size of the original board.
 </deviceset>
 </devicesets>
 </library>
+<library name="xbee_sx_pro">
+<packages>
+<package name="XBEE_SX_PRO">
+<smd name="13" x="0" y="0" dx="1.52" dy="2.8" layer="1" rot="R90"/>
+<smd name="12" x="0" y="2" dx="1.52" dy="2.8" layer="1" rot="R90"/>
+<smd name="11" x="0" y="4" dx="1.52" dy="2.8" layer="1" rot="R90"/>
+<smd name="10" x="0" y="6" dx="1.52" dy="2.8" layer="1" rot="R90"/>
+<smd name="9" x="0" y="8" dx="1.52" dy="2.8" layer="1" rot="R90"/>
+<smd name="8" x="0" y="10" dx="1.52" dy="2.8" layer="1" rot="R90"/>
+<smd name="7" x="0" y="12" dx="1.52" dy="2.8" layer="1" rot="R90"/>
+<smd name="6" x="0" y="14" dx="1.52" dy="2.8" layer="1" rot="R90"/>
+<smd name="5" x="0" y="16" dx="1.52" dy="2.8" layer="1" rot="R90"/>
+<smd name="4" x="0" y="18" dx="1.52" dy="2.8" layer="1" rot="R90"/>
+<smd name="3" x="0" y="20" dx="1.52" dy="2.8" layer="1" rot="R90"/>
+<smd name="2" x="0" y="22" dx="1.52" dy="2.8" layer="1" rot="R90"/>
+<smd name="1" x="0" y="24" dx="1.52" dy="2.8" layer="1" rot="R90"/>
+<smd name="14" x="4" y="-2.127" dx="1.52" dy="2.8" layer="1" rot="R180"/>
+<smd name="15" x="6" y="-2.127" dx="1.52" dy="2.8" layer="1" rot="R180"/>
+<smd name="16" x="8" y="-2.127" dx="1.52" dy="2.8" layer="1" rot="R180"/>
+<smd name="17" x="10" y="-2.127" dx="1.52" dy="2.8" layer="1" rot="R180"/>
+<smd name="18" x="12" y="-2.127" dx="1.52" dy="2.8" layer="1" rot="R180"/>
+<smd name="19" x="14" y="-2.127" dx="1.52" dy="2.8" layer="1" rot="R180"/>
+<smd name="20" x="16" y="-2.127" dx="1.52" dy="2.8" layer="1" rot="R180"/>
+<smd name="21" x="18" y="-2.127" dx="1.52" dy="2.8" layer="1" rot="R180"/>
+<wire x1="0" y1="-2.1" x2="0" y2="31.7" width="0.127" layer="51"/>
+<wire x1="0" y1="31.7" x2="21.9" y2="31.7" width="0.127" layer="51"/>
+<wire x1="21.9" y1="31.7" x2="21.9" y2="-2.1" width="0.127" layer="51"/>
+<wire x1="21.9" y1="-2.1" x2="0" y2="-2.1" width="0.127" layer="51"/>
+<smd name="22" x="22" y="0" dx="1.52" dy="2.8" layer="1" rot="R90"/>
+<smd name="23" x="22" y="2" dx="1.52" dy="2.8" layer="1" rot="R90"/>
+<smd name="24" x="22" y="4" dx="1.52" dy="2.8" layer="1" rot="R90"/>
+<smd name="25" x="22" y="6" dx="1.52" dy="2.8" layer="1" rot="R90"/>
+<smd name="26" x="22" y="8" dx="1.52" dy="2.8" layer="1" rot="R90"/>
+<smd name="27" x="22" y="10" dx="1.52" dy="2.8" layer="1" rot="R90"/>
+<smd name="28" x="22" y="12" dx="1.52" dy="2.8" layer="1" rot="R90"/>
+<smd name="29" x="22" y="14" dx="1.52" dy="2.8" layer="1" rot="R90"/>
+<smd name="30" x="22" y="16" dx="1.52" dy="2.8" layer="1" rot="R90"/>
+<smd name="31" x="22" y="18" dx="1.52" dy="2.8" layer="1" rot="R90"/>
+<smd name="32" x="22" y="20" dx="1.52" dy="2.8" layer="1" rot="R90"/>
+<smd name="33" x="22" y="22" dx="1.52" dy="2.8" layer="1" rot="R90"/>
+<smd name="34" x="22" y="24" dx="1.52" dy="2.8" layer="1" rot="R90"/>
+<smd name="35" x="22" y="26" dx="1.52" dy="2.8" layer="1" rot="R90"/>
+<smd name="36" x="22" y="28" dx="1.52" dy="2.8" layer="1" rot="R90"/>
+<smd name="37" x="22" y="30" dx="1.52" dy="2.8" layer="1" rot="R90"/>
+<smd name="38" x="6.1" y="21" dx="2.8" dy="2.8" layer="1"/>
+<wire x1="0" y1="25.4" x2="0" y2="31.75" width="0.127" layer="21"/>
+<wire x1="0" y1="31.75" x2="20.32" y2="31.75" width="0.127" layer="21"/>
+<wire x1="21.844" y1="-1.397" x2="21.844" y2="-2.159" width="0.127" layer="21"/>
+<wire x1="21.844" y1="-2.159" x2="19.685" y2="-2.159" width="0.127" layer="21"/>
+<wire x1="0" y1="-1.27" x2="0" y2="-2.159" width="0.127" layer="21"/>
+<wire x1="0" y1="-2.159" x2="2.794" y2="-2.159" width="0.127" layer="21"/>
+<text x="6.35" y="33.02" size="1.27" layer="25">RF MODULE</text>
+<text x="6.35" y="-6.35" size="1.27" layer="27">XBEE SX Pro</text>
+</package>
+</packages>
+<symbols>
+<symbol name="XBEE_SX_PRO">
+<pin name="GND@0" x="-5.08" y="35.56" length="middle"/>
+<pin name="VCC" x="-5.08" y="33.02" length="middle" direction="pwr"/>
+<pin name="DIO13/DOUT" x="-5.08" y="30.48" length="middle"/>
+<pin name="DIO14/DIN/CONFIG" x="-5.08" y="27.94" length="middle"/>
+<pin name="DIO12" x="-5.08" y="25.4" length="middle"/>
+<pin name="RESET" x="-5.08" y="22.86" length="middle"/>
+<pin name="DIO10" x="-5.08" y="20.32" length="middle"/>
+<pin name="DIO11" x="-5.08" y="17.78" length="middle"/>
+<pin name="NC@1" x="-5.08" y="15.24" length="middle" direction="nc"/>
+<pin name="DIO8" x="-5.08" y="12.7" length="middle"/>
+<pin name="GND@1" x="-5.08" y="10.16" length="middle"/>
+<pin name="DIO19" x="-5.08" y="7.62" length="middle"/>
+<pin name="GND@2" x="-5.08" y="5.08" length="middle" direction="pwr"/>
+<pin name="DIO18/SPI_CLK" x="10.16" y="-2.54" length="middle" rot="R90"/>
+<pin name="DIO17/SPI_SS" x="12.7" y="-2.54" length="middle" rot="R90"/>
+<pin name="DIO16/SPI_MOSI" x="15.24" y="-2.54" length="middle" rot="R90"/>
+<pin name="DIO15/SPI_MISO" x="17.78" y="-2.54" length="middle" rot="R90"/>
+<pin name="NC@2" x="20.32" y="-2.54" length="middle" direction="nc" rot="R90"/>
+<pin name="NC@3" x="22.86" y="-2.54" length="middle" direction="nc" rot="R90"/>
+<pin name="NC@4" x="25.4" y="-2.54" length="middle" direction="nc" rot="R90"/>
+<pin name="NC@5" x="27.94" y="-2.54" length="middle" direction="nc" rot="R90"/>
+<pin name="GND@3" x="43.18" y="5.08" length="middle" direction="pwr" rot="R180"/>
+<pin name="NC@6" x="43.18" y="7.62" length="middle" direction="nc" rot="R180"/>
+<pin name="DIO4" x="43.18" y="10.16" length="middle" rot="R180"/>
+<pin name="DIO7" x="43.18" y="12.7" length="middle" rot="R180"/>
+<pin name="DIO9/ON/SLEEP" x="43.18" y="15.24" length="middle" rot="R180"/>
+<pin name="VREF/NC" x="43.18" y="17.78" length="middle" rot="R180"/>
+<pin name="DIO5" x="43.18" y="20.32" length="middle" rot="R180"/>
+<pin name="DIO6" x="43.18" y="22.86" length="middle" rot="R180"/>
+<pin name="DIO3/AD3" x="43.18" y="25.4" length="middle" rot="R180"/>
+<pin name="DIO2/AD2" x="43.18" y="27.94" length="middle" rot="R180"/>
+<pin name="DIO1/AD1" x="43.18" y="30.48" length="middle" rot="R180"/>
+<pin name="DIO0/AD0" x="43.18" y="33.02" length="middle" rot="R180"/>
+<pin name="NC@7" x="43.18" y="35.56" length="middle" direction="nc" rot="R180"/>
+<pin name="GND@4" x="43.18" y="38.1" length="middle" direction="pwr" rot="R180"/>
+<pin name="RF_PAD" x="43.18" y="40.64" length="middle" rot="R180"/>
+<pin name="NC" x="43.18" y="43.18" length="middle" rot="R180"/>
+<pin name="GND@5" x="-5.08" y="43.18" length="middle" direction="pwr"/>
+<wire x1="0" y1="2.54" x2="38.1" y2="2.54" width="0.254" layer="94"/>
+<wire x1="38.1" y1="2.54" x2="38.1" y2="53.34" width="0.254" layer="94"/>
+<wire x1="38.1" y1="53.34" x2="0" y2="53.34" width="0.254" layer="94"/>
+<wire x1="0" y1="53.34" x2="0" y2="2.54" width="0.254" layer="94"/>
+<text x="15.24" y="55.88" size="1.778" layer="95">RF Module</text>
+<text x="10.16" y="-7.62" size="1.778" layer="96">XBEE_SX_PRO</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="XBEE_SX_PRO">
+<gates>
+<gate name="G$1" symbol="XBEE_SX_PRO" x="-76.2" y="-22.86"/>
+</gates>
+<devices>
+<device name="" package="XBEE_SX_PRO">
+<connects>
+<connect gate="G$1" pin="DIO0/AD0" pad="33"/>
+<connect gate="G$1" pin="DIO1/AD1" pad="32"/>
+<connect gate="G$1" pin="DIO10" pad="7"/>
+<connect gate="G$1" pin="DIO11" pad="8"/>
+<connect gate="G$1" pin="DIO12" pad="5"/>
+<connect gate="G$1" pin="DIO13/DOUT" pad="3"/>
+<connect gate="G$1" pin="DIO14/DIN/CONFIG" pad="4"/>
+<connect gate="G$1" pin="DIO15/SPI_MISO" pad="17"/>
+<connect gate="G$1" pin="DIO16/SPI_MOSI" pad="16"/>
+<connect gate="G$1" pin="DIO17/SPI_SS" pad="15"/>
+<connect gate="G$1" pin="DIO18/SPI_CLK" pad="14"/>
+<connect gate="G$1" pin="DIO19" pad="12"/>
+<connect gate="G$1" pin="DIO2/AD2" pad="31"/>
+<connect gate="G$1" pin="DIO3/AD3" pad="30"/>
+<connect gate="G$1" pin="DIO4" pad="24"/>
+<connect gate="G$1" pin="DIO5" pad="28"/>
+<connect gate="G$1" pin="DIO6" pad="29"/>
+<connect gate="G$1" pin="DIO7" pad="25"/>
+<connect gate="G$1" pin="DIO8" pad="10"/>
+<connect gate="G$1" pin="DIO9/ON/SLEEP" pad="26"/>
+<connect gate="G$1" pin="GND@0" pad="1"/>
+<connect gate="G$1" pin="GND@1" pad="11"/>
+<connect gate="G$1" pin="GND@2" pad="13"/>
+<connect gate="G$1" pin="GND@3" pad="22"/>
+<connect gate="G$1" pin="GND@4" pad="35"/>
+<connect gate="G$1" pin="GND@5" pad="38"/>
+<connect gate="G$1" pin="NC" pad="37"/>
+<connect gate="G$1" pin="NC@1" pad="9"/>
+<connect gate="G$1" pin="NC@2" pad="18"/>
+<connect gate="G$1" pin="NC@3" pad="19"/>
+<connect gate="G$1" pin="NC@4" pad="20"/>
+<connect gate="G$1" pin="NC@5" pad="21"/>
+<connect gate="G$1" pin="NC@6" pad="23"/>
+<connect gate="G$1" pin="NC@7" pad="34"/>
+<connect gate="G$1" pin="RESET" pad="6"/>
+<connect gate="G$1" pin="RF_PAD" pad="36"/>
+<connect gate="G$1" pin="VCC" pad="2"/>
+<connect gate="G$1" pin="VREF/NC" pad="27"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2969,6 +3127,7 @@ Arduino Uno R3 Compatible Footprint. Matches PCB size of the original board.
 <part name="JP1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X14" device="" package3d_urn="urn:adsk.eagle:package:22417/2"/>
 <part name="JP2" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X8" device="" package3d_urn="urn:adsk.eagle:package:22409/2"/>
 <part name="JP3" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X16" device="" package3d_urn="urn:adsk.eagle:package:22432/2"/>
+<part name="U$4" library="xbee_sx_pro" deviceset="XBEE_SX_PRO" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3014,6 +3173,7 @@ Arduino Uno R3 Compatible Footprint. Matches PCB size of the original board.
 <attribute name="NAME" x="113.03" y="-3.175" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="113.03" y="43.18" size="1.778" layer="96" rot="R180"/>
 </instance>
+<instance part="U$4" gate="G$1" x="-66.04" y="-43.18" smashed="yes"/>
 </instances>
 <busses>
 </busses>
