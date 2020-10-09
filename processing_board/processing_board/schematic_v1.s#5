@@ -2652,6 +2652,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R4" library="SparkFun-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" value="10k"/>
 <part name="PWR6" library="supply" deviceset="+5V" device=""/>
 <part name="PWR7" library="supply" deviceset="+5V" device=""/>
+<part name="PWR8" library="supply" deviceset="+5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2753,23 +2754,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </instance>
 <instance part="PWR6" gate="G$1" x="-86.36" y="93.98" smashed="yes"/>
 <instance part="PWR7" gate="G$1" x="-88.9" y="63.5" smashed="yes" rot="R90"/>
+<instance part="PWR8" gate="G$1" x="60.96" y="73.66" smashed="yes" rot="R270"/>
 </instances>
 <busses>
 </busses>
 <nets>
-<net name="VDD" class="0">
-<segment>
-<pinref part="C3" gate="G$1" pin="2"/>
-<wire x1="55.88" y1="54.356" x2="55.88" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="53.34" x2="55.88" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="63.5" y1="45.72" x2="55.88" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="C2" gate="G$1" pin="1"/>
-<wire x1="62.738" y1="54.356" x2="55.88" y2="54.356" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="VIN"/>
-<wire x1="44.45" y1="68.58" x2="55.88" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="55.88" y1="68.58" x2="55.88" y2="54.356" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="GND" class="0">
 <segment>
 <pinref part="C3" gate="G$1" pin="1"/>
@@ -2885,6 +2874,21 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <junction x="-86.36" y="60.96"/>
 <pinref part="PWR7" gate="G$1" pin="+5V"/>
 <wire x1="-88.9" y1="63.5" x2="-86.36" y2="63.5" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="PWR8" gate="G$1" pin="+5V"/>
+<wire x1="60.96" y1="73.66" x2="58.42" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="73.66" x2="58.42" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="C3" gate="G$1" pin="2"/>
+<wire x1="55.88" y1="54.356" x2="55.88" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="45.72" x2="55.88" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="C2" gate="G$1" pin="1"/>
+<wire x1="62.738" y1="54.356" x2="55.88" y2="54.356" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="VIN"/>
+<wire x1="44.45" y1="68.58" x2="53.34" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="68.58" x2="55.88" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="68.58" x2="55.88" y2="54.356" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="68.58" x2="55.88" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+3.3V" class="0">

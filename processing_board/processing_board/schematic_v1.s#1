@@ -3735,6 +3735,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <sheet>
 <plain>
 <text x="62.23" y="63.5" size="1.778" layer="91">Supply Decoupling</text>
+<text x="-96.52" y="30.48" size="1.778" layer="91">Level converters from CAN controller to CAN transiever</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="21.59" y="45.72" smashed="yes">
