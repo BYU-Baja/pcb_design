@@ -1168,8 +1168,6 @@ design rules under a new name.</description>
 <wire x1="41.4528" y1="33.528" x2="41.47" y2="33.4" width="0.1524" layer="1"/>
 <contactref element="U$1" pad="13"/>
 <contactref element="J2" pad="1"/>
-<wire x1="9.906" y1="32.004" x2="9.906" y2="29.2608" width="0.1524" layer="1"/>
-<wire x1="8.5344" y1="33.3756" x2="9.906" y2="32.004" width="0.1524" layer="1"/>
 <wire x1="9.906" y1="29.2608" x2="10" y2="29.25" width="0.1524" layer="1"/>
 <wire x1="8.5344" y1="33.3756" x2="8.45" y2="33.4" width="0.1524" layer="1"/>
 <contactref element="U$1" pad="1"/>
@@ -1191,10 +1189,6 @@ design rules under a new name.</description>
 <wire x1="40.0812" y1="2.8956" x2="39.7764" y2="2.8956" width="0.1524" layer="1"/>
 <wire x1="36.1188" y1="7.1628" x2="36" y2="7.25" width="0.1524" layer="1"/>
 <wire x1="40.0812" y1="2.8956" x2="40.17" y2="2.8" width="0.1524" layer="1"/>
-<wire x1="41.47" y1="33.4" x2="38.93" y2="33.4" width="0" layer="19" extent="1-1"/>
-<wire x1="36" y1="7.25" x2="38" y2="10" width="0" layer="19" extent="1-1"/>
-<wire x1="10" y1="7.25" x2="12" y2="10" width="0" layer="19" extent="1-1"/>
-<wire x1="10" y1="29.25" x2="12" y2="25" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <mfgpreviewcolors>
