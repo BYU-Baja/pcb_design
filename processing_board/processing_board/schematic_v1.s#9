@@ -4272,6 +4272,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="D8" library="SparkFun-LED" deviceset="LED-GREEN" device="0603" value="GREEN"/>
 <part name="R17" library="SparkFun-Resistors" deviceset="220KOHM" device="-0402T-1/16W-1%" value="10K"/>
 <part name="GND12" library="supply" deviceset="GND" device=""/>
+<part name="GND13" library="supply" deviceset="GND" device=""/>
+<part name="GND14" library="supply" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4281,7 +4283,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="111.76" y="15.24" size="1.778" layer="91">Pin 1</text>
 <text x="165.1" y="15.24" size="1.778" layer="91">Pin 37</text>
 <text x="127" y="-17.78" size="1.778" layer="91">pin 15</text>
-<text x="162.56" y="-22.86" size="1.778" layer="91">pin 23</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="21.59" y="45.72" smashed="yes">
@@ -4492,6 +4493,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="VALUE" x="85.344" y="-45.72" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
 <instance part="GND12" gate="VR1" x="83.82" y="-58.42" smashed="yes"/>
+<instance part="GND13" gate="VR1" x="170.18" y="-22.86" smashed="yes" rot="R90"/>
+<instance part="GND14" gate="VR1" x="170.18" y="10.16" smashed="yes" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -4580,7 +4583,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <wire x1="157.48" y1="10.16" x2="167.64" y2="10.16" width="0.1524" layer="91"/>
 <pinref part="JP3" gate="A" pin="3"/>
-<label x="167.64" y="10.16" size="1.778" layer="95"/>
+<pinref part="GND14" gate="VR1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="R6" gate="G$1" pin="1"/>
@@ -4602,6 +4605,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="GND12" gate="VR1" pin="GND"/>
 <pinref part="R17" gate="G$1" pin="1"/>
 <wire x1="83.82" y1="-55.88" x2="83.82" y2="-50.8" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="JP3" gate="A" pin="16"/>
+<wire x1="157.48" y1="-22.86" x2="167.64" y2="-22.86" width="0.1524" layer="91"/>
+<pinref part="GND13" gate="VR1" pin="GND"/>
 </segment>
 </net>
 <net name="+15V" class="0">
