@@ -1127,10 +1127,10 @@ design rules under a new name.</description>
 <signal name="N$37">
 <contactref element="U$1" pad="1"/>
 <contactref element="J2" pad="13"/>
-<wire x1="34.7472" y1="29.2608" x2="34.1376" y2="29.2608" width="0.1524" layer="1"/>
-<wire x1="38.862" y1="33.3756" x2="34.7472" y2="29.2608" width="0.1524" layer="1"/>
+<wire x1="34.2472" y1="29.2608" x2="34.1376" y2="29.2608" width="0.1524" layer="1"/>
+<wire x1="38.082184375" y1="33.095784375" x2="34.2472" y2="29.2608" width="0.1524" layer="1"/>
 <wire x1="34.1376" y1="29.2608" x2="34" y2="29.25" width="0.1524" layer="1"/>
-<wire x1="38.862" y1="33.3756" x2="38.93" y2="33.4" width="0.1524" layer="1"/>
+<wire x1="38.082184375" y1="33.095784375" x2="38.93" y2="33.4" width="0.1524" layer="1"/>
 </signal>
 <signal name="GND">
 <polygon width="0.8128" layer="1">

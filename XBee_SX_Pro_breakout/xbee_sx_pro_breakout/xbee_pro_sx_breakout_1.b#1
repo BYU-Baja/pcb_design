@@ -198,6 +198,8 @@
 <hole x="45" y="8" drill="5"/>
 <rectangle x1="31" y1="8.8" x2="35.2" y2="15.2" layer="41"/>
 <rectangle x1="31" y1="8.8" x2="35.2" y2="15.2" layer="42"/>
+<dimension x1="41" y1="33" x2="41" y2="2.5" x3="60" y3="17.75" textsize="1.778" layer="1"/>
+<dimension x1="7" y1="3" x2="3" y2="3" x3="5" y3="-2" textsize="1.778" layer="1"/>
 </plain>
 <libraries>
 <library name="SparkFun-Connectors">

@@ -1163,7 +1163,6 @@ design rules under a new name.</description>
 <via x="12" y="10" extent="1-16" drill="0.35"/>
 <contactref element="U$1" pad="38"/>
 <contactref element="J2" pad="14"/>
-<wire x1="41.4528" y1="33.528" x2="31.0896" y2="23.1648" width="0.1524" layer="1"/>
 <wire x1="31.0896" y1="23.1648" x2="31" y2="23.15" width="0.1524" layer="1"/>
 <wire x1="41.4528" y1="33.528" x2="41.47" y2="33.4" width="0.1524" layer="1"/>
 <contactref element="U$1" pad="13"/>
@@ -1173,9 +1172,7 @@ design rules under a new name.</description>
 <contactref element="U$1" pad="1"/>
 <contactref element="J2" pad="13"/>
 <wire x1="34.2472" y1="29.2608" x2="34.1376" y2="29.2608" width="0.1524" layer="1"/>
-<wire x1="38.082184375" y1="33.095784375" x2="34.2472" y2="29.2608" width="0.1524" layer="1"/>
 <wire x1="34.1376" y1="29.2608" x2="34" y2="29.25" width="0.1524" layer="1"/>
-<wire x1="38.082184375" y1="33.095784375" x2="38.93" y2="33.4" width="0.1524" layer="1"/>
 <contactref element="U$1" pad="22"/>
 <contactref element="J3" pad="16"/>
 <wire x1="9.906" y1="5.6388" x2="9.906" y2="7.1628" width="0.1524" layer="1"/>
