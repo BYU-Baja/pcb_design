@@ -9568,17 +9568,6 @@ Arduino Uno R3 Compatible Footprint. Matches PCB size of the original board.
 <label x="93.98" y="-10.16" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="60.96" y1="17.78" x2="55.88" y2="17.78" width="0.1524" layer="91"/>
-<pinref part="U$4" gate="G$1" pin="3-LRCLK2"/>
-</segment>
-<segment>
-<wire x1="60.96" y1="15.24" x2="55.88" y2="15.24" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<wire x1="60.96" y1="12.7" x2="55.88" y2="12.7" width="0.1524" layer="91"/>
-<pinref part="U$4" gate="G$1" pin="5-IN2"/>
-</segment>
-<segment>
 <label x="60.96" y="17.78" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -9589,9 +9578,6 @@ Arduino Uno R3 Compatible Footprint. Matches PCB size of the original board.
 <label x="93.98" y="-17.78" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="55.88" y1="15.24" x2="58.42" y2="15.24" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <label x="60.96" y="15.24" size="1.778" layer="95"/>
 </segment>
 </net>
@@ -9600,9 +9586,6 @@ Arduino Uno R3 Compatible Footprint. Matches PCB size of the original board.
 <pinref part="R24" gate="G$1" pin="2"/>
 <wire x1="109.22" y1="-25.4" x2="106.68" y2="-25.4" width="0.1524" layer="91"/>
 <label x="93.98" y="-25.4" size="1.778" layer="95"/>
-</segment>
-<segment>
-<wire x1="58.42" y1="12.7" x2="60.96" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <label x="60.96" y="12.7" size="1.778" layer="95"/>
@@ -9620,10 +9603,22 @@ Arduino Uno R3 Compatible Footprint. Matches PCB size of the original board.
 <pinref part="U$4" gate="G$1" pin="6-OUT1D"/>
 </segment>
 </net>
-<net name="STATUS6" class="0">
+<net name="N$9" class="0">
 <segment>
-<wire x1="58.42" y1="15.24" x2="55.88" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="U$4" gate="G$1" pin="3-LRCLK2"/>
+<wire x1="55.88" y1="17.78" x2="60.96" y2="17.78" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$19" class="0">
+<segment>
 <pinref part="U$4" gate="G$1" pin="4-BCLK2"/>
+<wire x1="55.88" y1="15.24" x2="60.96" y2="15.24" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$23" class="0">
+<segment>
+<pinref part="U$4" gate="G$1" pin="5-IN2"/>
+<wire x1="55.88" y1="12.7" x2="60.96" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
