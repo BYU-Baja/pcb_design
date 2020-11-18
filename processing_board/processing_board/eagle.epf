@@ -6,6 +6,7 @@ Desktop="Desktop"
 
 [Globals]
 AutoSaveProject=1
+UsedLibrary="C:/Users/tbart/Documents/EAGLE/libraries/SparkFun-Connectors.lbr"
 UsedLibrary="C:/Users/tbart/Documents/EAGLE/projects/pcb_design/libraries/User-Submitted.lbr"
 UsedLibrary="C:/Users/tbart/Documents/EAGLE/projects/pcb_design/libraries/BSS138.lbr"
 UsedLibrary="C:/Users/tbart/Documents/EAGLE/projects/pcb_design/libraries/LilyPad-Wearables.lbr"
@@ -84,12 +85,11 @@ UsedLibrary="C:/Users/tbart/Documents/EAGLE/projects/pcb_design/libraries/transi
 UsedLibrary="C:/Users/tbart/Documents/EAGLE/projects/pcb_design/libraries/transistors-npn.lbr"
 UsedLibrary="C:/Users/tbart/Documents/EAGLE/projects/pcb_design/libraries/transistors-pnp.lbr"
 UsedLibrary="C:/Users/tbart/Documents/EAGLE/projects/pcb_design/libraries/xbee_sx_pro.lbr"
-UsedLibrary="C:/Users/tbart/Documents/EAGLE/libraries/SparkFun-Connectors.lbr"
 
 [Win_1]
 Type="Control Panel"
 Number=0
 
 [Desktop]
-Screen="1920 1080"
+Screen="3840 1399"
 Window="Win_1"
