@@ -190,12 +190,19 @@
 <wire x1="124" y1="0" x2="124" y2="72" width="0" layer="20"/>
 <wire x1="124" y1="72" x2="-2" y2="72" width="0" layer="20"/>
 <wire x1="-2" y1="72" x2="-2" y2="0" width="0" layer="20"/>
-<hole x="121.4" y="69.5" drill="2"/>
-<hole x="0.9" y="3.5" drill="2"/>
-<hole x="120.9" y="3" drill="2"/>
+<hole x="1" y="3" drill="2"/>
+<hole x="121" y="3" drill="2"/>
 <dimension x1="-2" y1="-7" x2="125" y2="-7.5" x3="61.49025" y3="-9.726340625" textsize="1.778" layer="1"/>
 <dimension x1="124" y1="0" x2="124" y2="72" x3="134.5" y3="36" textsize="1.778" layer="1"/>
-<hole x="0.4" y="69.5" drill="2"/>
+<hole x="1" y="69" drill="2"/>
+<dimension x1="1" y1="69" x2="1" y2="72" x3="-4" y3="70.5" textsize="1.778" layer="1"/>
+<dimension x1="-2" y1="0" x2="-2" y2="3" x3="1" y3="1.5" textsize="1.778" layer="1" dtype="diameter"/>
+<dimension x1="124" y1="0" x2="124" y2="3" x3="123" y3="1.5" textsize="1.778" layer="1" dtype="diameter"/>
+<dimension x1="124" y1="0" x2="121" y2="0" x3="122.5" y3="3" textsize="1.778" layer="1" dtype="diameter"/>
+<dimension x1="124" y1="72" x2="124" y2="69" x3="121" y3="70.5" textsize="1.778" layer="1" dtype="diameter"/>
+<dimension x1="124" y1="72" x2="121" y2="72" x3="122.5" y3="69" textsize="1.778" layer="1" dtype="diameter"/>
+<dimension x1="-2" y1="0" x2="-2" y2="72" x3="-14" y3="36" textsize="1.778" layer="1"/>
+<hole x="121" y="69" drill="2"/>
 </plain>
 <libraries>
 <library name="SparkFun-Capacitors">
