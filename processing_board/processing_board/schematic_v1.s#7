@@ -9231,11 +9231,11 @@ thin small outline package</description>
 </instance>
 <instance part="PWR20" gate="G$1" x="289.56" y="15.24" smashed="yes" rot="R270"/>
 <instance part="PWR21" gate="G$1" x="223.52" y="-15.24" smashed="yes" rot="R90"/>
-<instance part="C7" gate="G$1" x="218.44" y="-38.1" smashed="yes">
-<attribute name="NAME" x="219.964" y="-35.179" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="219.964" y="-40.259" size="1.778" layer="96" font="vector"/>
+<instance part="C7" gate="G$1" x="198.12" y="-25.4" smashed="yes">
+<attribute name="NAME" x="199.644" y="-22.479" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="199.644" y="-27.559" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="PWR22" gate="G$1" x="218.44" y="-33.02" smashed="yes"/>
+<instance part="PWR22" gate="G$1" x="198.12" y="-20.32" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -9438,8 +9438,8 @@ thin small outline package</description>
 </segment>
 <segment>
 <pinref part="C7" gate="G$1" pin="2"/>
-<wire x1="218.44" y1="-40.64" x2="218.44" y2="-43.18" width="0.1524" layer="91"/>
-<label x="218.44" y="-43.18" size="1.778" layer="95"/>
+<wire x1="198.12" y1="-27.94" x2="198.12" y2="-30.48" width="0.1524" layer="91"/>
+<label x="198.12" y="-30.48" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="+15V" class="0">
@@ -10340,7 +10340,7 @@ thin small outline package</description>
 <segment>
 <pinref part="U2" gate="U1" pin="AREF"/>
 <wire x1="233.68" y1="-25.4" x2="228.6" y2="-25.4" width="0.1524" layer="91"/>
-<label x="226.06" y="-25.4" size="1.778" layer="95"/>
+<label x="228.6" y="-25.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="A_SCK" class="0">

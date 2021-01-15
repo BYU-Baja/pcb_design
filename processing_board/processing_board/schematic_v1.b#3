@@ -2611,7 +2611,6 @@ design rules under a new name.</description>
 <vertex x="124" y="0"/>
 <vertex x="-2" y="0"/>
 </polygon>
-<wire x1="88" y1="16.984" x2="88" y2="18" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="+15V">
 <contactref element="U$2" pad="3"/>

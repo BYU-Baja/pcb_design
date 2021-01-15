@@ -2599,6 +2599,18 @@ design rules under a new name.</description>
 <wire x1="91.4496" y1="53.3494" x2="97.47558125" y2="53.3494" width="0.6096" layer="16"/>
 <wire x1="100.2792" y1="50.54578125" x2="100.2792" y2="50.4444" width="0.6096" layer="16"/>
 <wire x1="97.47558125" y1="53.3494" x2="100.2792" y2="50.54578125" width="0.6096" layer="16"/>
+<polygon width="0.6096" layer="1">
+<vertex x="-2" y="72"/>
+<vertex x="124" y="72"/>
+<vertex x="124" y="0"/>
+<vertex x="-2" y="0"/>
+</polygon>
+<polygon width="0.6096" layer="16">
+<vertex x="-2" y="72"/>
+<vertex x="124" y="72"/>
+<vertex x="124" y="0"/>
+<vertex x="-2" y="0"/>
+</polygon>
 <wire x1="88" y1="16.984" x2="88" y2="18" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="+15V">

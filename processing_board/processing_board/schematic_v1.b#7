@@ -204,7 +204,6 @@
 <text x="1" y="27" size="0.8128" layer="25" rot="R90">GND  5  SDA  SCL</text>
 <text x="2" y="40" size="0.8128" layer="25" rot="R90">5  TX  RX  GND</text>
 <text x="1" y="40" size="0.8128" layer="25" rot="R90">CAN</text>
-<dimension x1="63.5" y1="28.95" x2="33" y2="29" x3="48.2516375" y3="29.975" textsize="1.778" layer="1"/>
 </plain>
 <libraries>
 <library name="SparkFun-Capacitors">
